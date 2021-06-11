@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="Javascript calculator" />
+    <!-- (line 7) gives describes what kind of html is this, helps search engines-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- (line 9) viewport refers to the screen, autoscales -->
+    <link rel="stylesheet" type="text/css" href="stylesheet/alt-style.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet/animation.css">
+
+    <title> Alternative-Calculator </title>
+
+</head>
+
+<body>
+    <div>
+        <div class="words">
+            <span>C</span>
+            <span>A</span>
+            <span>L</span>
+            <span>C</span>
+            <span>U</span>
+            <span>L</span>
+            <span>A</span>
+            <span>T</span>
+            <span>O</span>
+            <span>R</span>
+        </div>
+        <br/>
+        <form id="calcform" Name="calc">
+            <input id="Display" name="display"> <br/>
+            <input id="one" type=button value="1" onclick="calc.display.value+='1'">
+            <input id="two" type=button value="2" onclick="calc.display.value+='2'">
+            <input id="three" type=button value="3" onclick="calc.display.value+='3'">
+            <input id="plus" type=button value="+" onclick="calc.display.value+='+'"> <br/>
+            <input id="four" type=button value="4" onclick="calc.display.value+='4'">
+            <input id="five" type=button value="5" onclick="calc.display.value+='5'">
+            <input id="six" type=button value="6" onclick="calc.display.value+='6'">
+            <input id="minus" type=button value="-" onclick="calc.display.value+='-'"> <br/>
+            <input id="seven" type=button value="7" onclick="calc.display.value+='7'">
+            <input id="eight" type=button value="8" onclick="calc.display.value+='8'">
+            <input id="nine" type=button value="9" onclick="calc.display.value+='9'">
+            <input id="mul" type=button value="x" onclick="calc.display.value+='*'"> <br/>
+            <input id="zero" type=button value="0" onclick="calc.display.value+='0'">
+            <input id="clear" type=button value="C" onclick="calc.display.value=''">
+            <input id="equal" type=button value="=" onclick="calc.display.value=eval(calc.display.value)">
+            <input id="division" type=button value="&#247;" onclick="calc.display.value+='/'">
+        </form>
+    </div>
+
+</body>
+
+
+</html>
