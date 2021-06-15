@@ -39,6 +39,7 @@ body {
 }
 
 .calculator-grid>button {
+    text-align: center;
     cursor: pointer;
     font-size: 3vmax;
     color: rgb(28, 247, 217);
