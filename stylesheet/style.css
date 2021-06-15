@@ -79,10 +79,10 @@ body {
 
 .output .previous-operand {
     color: rgba(255, 255, 255, 0.75);
-    font-size: 5vw;
+    font-size: 3.5vmax;
 }
 
 .output .current-operand {
     color: rgba(255, 255, 255, 0.75);
-    font-size: 7vw;
+    font-size: 5vmax;
 }
