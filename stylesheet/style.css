@@ -34,6 +34,7 @@ body {
     justify-content: center;
     align-content: center;
     min-height: 100vh;
+    min-width: 100vw;
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: minmax(120px, auto) repeat(6, 100px);
 }
@@ -42,7 +43,7 @@ body {
     margin: 0;
     padding: 0;
     cursor: pointer;
-    font-size: 3vmax;
+    font-size: 1.5rem;
     color: rgb(28, 247, 217);
     border: 1px solid aquamarine;
     border-style: groove;
