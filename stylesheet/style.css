@@ -40,7 +40,7 @@ body {
 
 .calculator-grid>button {
     cursor: pointer;
-    font-size: auto;
+    font-size: 5vw;
     color: rgb(28, 247, 217);
     border: 1px solid aquamarine;
     border-style: groove;
